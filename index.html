@@ -18,3 +18,50 @@
             <p class="lead">Search your city to check the weather.</p>
         </div>
     </div>
+
+
+
+      <!-- Search Results -->
+      <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div id="searchbar">
+                    <div class="input-group">
+                        <input type="search" class="form-control rounded" id="cityName" placeholder="Search"
+                            aria-label="Search" aria-describedby="search-addon" />
+                        <button type="button" class="btn btn-outline-primary" id="fetch">search</button>
+                    </div>
+                    <!-- search button and bar  -->
+                </div>
+                <div>
+                    <div id="History"></div>
+                    <!-- <div class="container-md">0% wide until medium breakpoint</div> -->
+                    <ul id="searchHistory">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="row text-center" id="currentForcast"></div>
+                <div class="col-8" id="5dayForcast">
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+       <!-- container for search history -->
+
+
+
+
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+       <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+       <script src="./Assets/script.js"></script>
+   </body>
+   
+   </html>
